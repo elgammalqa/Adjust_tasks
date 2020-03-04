@@ -12,54 +12,53 @@ sudo chmod +x main.py
 
 # TASK 2
 Imagine a server with the following specs:
-
 4 times Intel(R) Xeon(R) CPU E7-4830 v4 @ 2.00GHz
 64GB of ram
 2 tb HDD disk space
 2 x 10Gbit/s nics
-The server is used for SSL offloading and proxies around 25000 requests per second. Please let us know which metrics are interesting to monitor in that specific case and how would you do that? What are the challenges of monitoring this?
+The server is used for SSL offloading and proxies around 25000 requests per second. Please let us know which metrics are interesting to monitor in that specific case and how would you do that? What are the challenges of monitoring this?` 
 
-Solution
-Metrics are interesting to monitor
+> Solution
+ `Metrics are interesting to monitor`
 
-* Sever running state
+- [x] Sever running state
 
-* CPU total usage
+- [x] CPU total usage
 
-* CPU usage Breakdown. 
+- [x] CPU usage Breakdown. 
 
-* CPU usage per Core
+- [x] CPU usage per Core
 
-* CPU temperature
+- [x] CPU temperature
 
-* Memory total usage
+- [x] Memory total usage
 
-* Memory errors
+- [x] Memory errors
 
-* Network Errors
+- [x] Network Errors
 
-* Network throughput
+- [x] Network throughput
 
-* File system
+- [x] File system
 
-* I/O
+- [x] I/O
 
-* IO read, IO write
+- [x] IO read, IO write
 
-* Network traffic
+- [x] Network traffic
 
-* TCP connection states
+- [x] TCP connection states
 
-* SSL certificate validate status
+- [x] SSL certificate validate status
 
 
-We can use promethus + Grafana
-Attached some screenshoots from grafana
+> We can use promethus + Grafana
+ `Attached some screenshoots from grafana`
 
-Challenges to monitoring this
-Rules and Alerts
-Metrics to monitor
-Metrics should to store to remote storage like S3
-redundancy
+> Challenges to monitoring this
+* Rules and Alerts
+* Metrics to monitor
+* Metrics should to store to remote storage like S3
+* redundancy
 
 
